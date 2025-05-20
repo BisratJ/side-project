@@ -1,10 +1,11 @@
-import { cn } from '@/lib/utils'; // Assuming cn is a utility like classnames or tailwind-merge
+// components/logo.tsx
+import { cn } from '@/lib/utils'; 
 
 export const Logo = ({ className }: { className?: string }) => {
     return (
         <svg
-            className={cn('size-7 w-7', className)}
-            viewBox="0 0 71 25"
+            className={cn('size-7 w-7', className)} 
+            viewBox="0 0 71 25" 
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
         >
@@ -14,7 +15,7 @@ export const Logo = ({ className }: { className?: string }) => {
                 dominantBaseline="middle"
                 textAnchor="middle"
                 fontFamily="Poppins, sans-serif"
-                fontSize="48"
+                fontSize="20" 
                 fontWeight="bold"
                 fill="currentColor"
             >
@@ -38,7 +39,7 @@ export const LogoStroke = ({ className }: { className?: string }) => {
                 dominantBaseline="middle"
                 textAnchor="middle"
                 fontFamily="Poppins, sans-serif"
-                fontSize="48"
+                fontSize="20" 
                 fontWeight="bold"
                 fill="none"
                 stroke="currentColor"
